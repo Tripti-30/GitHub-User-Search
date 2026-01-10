@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub User Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>GitHub User Search</h1>
+    <button id="themeToggle" class="theme-toggle">🌙 Dark Mode</button>
+
+
+    <div class="search-box">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p id="loading" class="loading"></p>
+    <p id="errorMessage" class="error"></p>
+
+    <div id="profile" class="profile"></div>
+    <div id="repos" class="repos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
